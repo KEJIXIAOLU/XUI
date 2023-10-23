@@ -19,7 +19,7 @@ Xray-core 团队推出了 VLESS Vision 和 VLESS Reality 两种新颖的技术�
 
   ### 1、一台境外VPS主流系统，例如：Debian/Ubuntu/CentOS
 
-[Vultr 购买地址，点此进入](https://www.vultr.com/?ref=8941832-8H)：按时计费，最低6$/月。
+Vultr 购买地址：https://www.vultr.com/?ref=8753714  [点此进入](https://www.vultr.com/?ref=8941832-8H)：按时计费，最低6$/月。
 
 ### 2、下载并安装FinalShell SSH工具
 
