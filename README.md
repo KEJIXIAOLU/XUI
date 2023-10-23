@@ -23,9 +23,9 @@ Xray-core 团队推出了 VLESS Vision 和 VLESS Reality 两种新颖的技术�
 
 ### 2、下载并安装FinalShell SSH工具
 
-Windows版下载地址：[点此下载](http://www.hostbuf.com/downloads/finalshell_install.exe)
+Windows版下载地址：http://www.hostbuf.com/downloads/finalshell_install.exe  [点此下载](http://www.hostbuf.com/downloads/finalshell_install.exe)
 
-macOS版下载地址：[点此下载](http://www.hostbuf.com/downloads/finalshell_install.pkg)
+macOS版下载地址：http://www.hostbuf.com/downloads/finalshell_install.pkg  [点此下载](http://www.hostbuf.com/downloads/finalshell_install.pkg)
 
 ## 二、搭建步骤
 
@@ -71,6 +71,7 @@ macOS版下载地址：[点此下载](http://www.hostbuf.com/downloads/finalshel
 
 ## 三、各平台客户端
 v2rayNG【需要最新版本】
+
 Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
 
 Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
@@ -93,7 +94,7 @@ IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 ## 五、检测端口是否被封
 端口被封的原因是多方面的，目前并没有哪一种节点可以保证不被封，本期讲的这三种方式也不例外，所以如果你的节点突然无法使用了，可以用以下方式进行排查。
 
-打开[ping.pe](https://ping.pe/)
+打开 [ping.pe](https://ping.pe/)
 
 输入 IP 检测 ping 可用
 
