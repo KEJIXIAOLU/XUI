@@ -15,7 +15,7 @@ Xray-core 团队推出了 VLESS Vision 和 VLESS Reality 两种新颖的技术�
 - 支持CDN套用
 - 支持Fallback分流设置
 
-- ## 一、准备工作
+ ## 一、准备工作
 
   ### 1、一台境外VPS主流系统，例如：Debian/Ubuntu/CentOS
 Vultr是按时计费，不用了可以随时删除服务器就停止收费了，最低6$/月。
@@ -71,6 +71,7 @@ macOS版下载地址：http://www.hostbuf.com/downloads/finalshell_install.pkg  
     
 
 ## 三、各平台客户端
+
 v2rayNG【需要最新版本】
 
 Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
