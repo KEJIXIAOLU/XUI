@@ -53,24 +53,29 @@ macOS版下载地址：http://www.hostbuf.com/downloads/finalshell_install.pkg  
 注意事项：如果你点了 X-ui 面板设置，第一次进入的时候会自动帮你更改网址路径，点击确认，会自动跳转到新网址，下次再进入面板就需要通过这个新网址才能进入，
 建议将其保存为书签，防止忘记了。
 
-## 搭建 Vision 节点申请证书
+--------------------------------
 
-### 安装证书工具
+## 三、搭建 Vision 节点申请证书
+
+### 1、安装证书工具
 
 
     curl https://get.acme.sh | sh; apt install socat -y || yum install socat -y; ~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
 
 
-### 申请证书
+### 2、申请证书
+
 
     ~/.acme.sh/acme.sh  --issue -d 你的域名 --standalone -k ec-256 --force --insecure
 
-### 安装证书
+这里需要更改你的域名，如果出现提示错误，可能是需要放行80端口。
+
+### 3、安装证书
 
     ~/.acme.sh/acme.sh --install-cert -d 你的域名 --ecc --key-file /etc/x-ui/server.key --fullchain-file /etc/x-ui/server.crt
     
 
-## 三、各平台客户端
+## 四、各平台客户端
 
 v2rayNG【需要最新版本】
 
@@ -81,7 +86,7 @@ Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
 IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 
 
-## 四、放行端口
+## 五、放行端口
 放行指令是一样的，只要将端口443为任意端口就可以了。
 
 ### 放行 443 端口
@@ -93,7 +98,7 @@ IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
     iptables -I INPUT -p tcp --dport 54321 -j ACCEPT
 
 
-## 五、检测端口是否被封
+## 六、检测端口是否被封
 端口被封的原因是多方面的，目前并没有哪一种节点可以保证不被封，本期讲的这三种方式也不例外，所以如果你的节点突然无法使用了，可以用以下方式进行排查。
 
 打开 [ping.pe](https://ping.pe/)
