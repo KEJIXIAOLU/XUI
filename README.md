@@ -15,7 +15,7 @@
 - 支持CDN套用
 - 支持Fallback分流设置
 
-### Youtube播放地址：
+### Youtube播放地址：https://youtu.be/Hg3A_cUYNaI
 
  ## 一、准备工作
 
