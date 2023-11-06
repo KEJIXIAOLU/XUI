@@ -20,9 +20,12 @@
  ## 一、准备工作
 
   ### 1、一台境外VPS主流系统，例如：Debian/Ubuntu/CentOS
-Vultr是按时计费，不用了可以随时删除服务器就停止收费了，最低6$/月。
 
+本期搭建用的VPS网址：https://bit.ly/3hBENuF
+  
 Vultr VPS 购买地址：https://www.vultr.com/?ref=9554306  [点此进入](https://www.vultr.com/?ref=9554306)  
+
+Vultr是按时计费，不用了可以随时删除服务器就停止收费了，最低6$/月。
 
 ### 2、下载并安装FinalShell SSH工具
 
