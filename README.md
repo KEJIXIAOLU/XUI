@@ -15,6 +15,8 @@
 - 支持CDN套用
 - 支持Fallback分流设置
 
+### Youtube播放地址：
+
  ## 一、准备工作
 
   ### 1、一台境外VPS主流系统，例如：Debian/Ubuntu/CentOS
